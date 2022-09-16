@@ -42,6 +42,10 @@ fun findRange(arr: Array<Int>, target: Int): Int {
         end = end + (end - start + 1) * 2
         start = newStart
     }
+    
+    if (target == arr[end])
+        return end
+ 
     return normalBinarySearch(arr, target, start, end)
 }
 
