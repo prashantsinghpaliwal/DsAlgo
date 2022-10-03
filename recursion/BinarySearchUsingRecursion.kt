@@ -1,8 +1,8 @@
 package com.byjusexamprep.kunalkushyt.recursion
 
 fun main() {
-    val arr = arrayOf(2, 12, 21, 23, 33, 37, 38, 40, 41)
-    val target = 12
+    val arr = arrayOf(1,2,3,4,5)
+    val target = 4
     val start = 0
     val end = arr.size - 1
     println(recursionBinarySearch(arr, start, end, target))
